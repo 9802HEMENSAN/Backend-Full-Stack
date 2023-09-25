@@ -21,7 +21,7 @@ const BlogsSchema = mongoose.Schema({
     type: String,
     required: true,
   },
-  department: {
+  category : {
     type: String,
     enum: ["Tech", "Marketing", "Operations"],
     required: true,
